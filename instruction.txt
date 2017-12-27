@@ -2,4 +2,4 @@
 
 - Stage (git add filename)
 - Commit (local commit)
-- Push  (clound
+- Push  (cloud push / upload)
