@@ -1,0 +1,5 @@
+- git clone repo url (only for the first time)
+
+- Stage (git add filename)
+- Commit (local commit)
+- Push  (clound
