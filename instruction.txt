@@ -3,3 +3,6 @@
 - Stage (git add filename)
 - Commit (local commit)
 - Push  (cloud push / upload)
+
+
+- git pull (to download the latest changes from the remote repository)
