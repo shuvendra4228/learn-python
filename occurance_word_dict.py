@@ -9,14 +9,13 @@ for item in lst:
 print(dict)
 max = 0
 key = 0
-for k,v in dict.items():
-    if v >= max:
-        max = v
-        key = k
-        flag = 1
-        print("{} has a occurance of {} times".format(key,max))
-    
+if len(set(dict.values())) == 1:
+    print("no highest occurance:")
 else:
-    print("no highest ocuurance of any word")
+    for k,v in dict.items():
+        if v > max:
+            max = v
+            key = k
+            print(key,":",max)    
 
 
