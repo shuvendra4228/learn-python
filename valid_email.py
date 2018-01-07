@@ -1,9 +1,11 @@
 email = input("enter your email: ")
-str1= email.split("@")
-str2 = str1[1].split(".")
-str2.append(str1[0])
-if len(str2) == 3:
-    print("valid email")
-else:
-    print("not valid")
+array_1 = email.split("@")
 
+if len(array_1) == 2:
+    array_2 = array_1[1].split(".")
+    if len(array_2) == 2 and len(array_2[0]) != 0:
+        print("email is valid")
+    else:
+        print("not valid")
+else:
+    print("not a valid email")
