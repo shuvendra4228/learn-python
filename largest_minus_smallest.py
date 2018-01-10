@@ -8,6 +8,5 @@ for i in range(1,len(input_list)):
         max = input_list[i]
     elif input_list[i] < min:
         min = input_list[i]
-diff = max - min
-print(f"{max} - {min}= {diff}")
+print(f"{max} - {min}= {max - min}")
     
