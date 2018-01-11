@@ -1,4 +1,4 @@
-input_str = ("biki is a good biki programmer good")
+input_str = ("biki biki is is a a good good programmer programmer")
 lst = input_str.split(" ")
 dict = {}
 max = 1
