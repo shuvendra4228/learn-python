@@ -6,5 +6,3 @@ while temp1 > 0:
     temp1 = temp1//10 
     rev = rev*10 + reminder
 print(f"reverse of {temp} is {rev}")
-
-
